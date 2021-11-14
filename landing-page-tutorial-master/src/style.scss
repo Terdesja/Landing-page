@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url(./Gilroy-Light.otf);
+}
+
+@font-face {
+    font-family: "Gilroy-Extrabold";
+    src: url(./Gilroy-ExtraBold.otf);
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy-Light", sans-serif;
+}
+
+.page-wrap {
+    display: flex;
+    height: 100vh;
+}
+
+.col-left {
+    flex: 1;
+    background-color: black;
+}
+
+.col-center {
+
+}
+
+.col-right {
+
+}
